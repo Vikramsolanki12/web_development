@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    font-family: sans-serif;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+#user-score, #com-score{
+    font-size: 3rem;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#msg{
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.reset-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#reset{
+    font-size: 1.5rem;
+    padding: 1rem;
+    line-height: 1rem;
+    background-color: azure;
+    border: 0.3px solid black;
+    border-radius: 2rem;
+}
+
+#reset:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}

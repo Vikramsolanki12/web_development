@@ -15,7 +15,7 @@ if not GEMINI_API_KEY:
     pass 
 
 
-genai.configure(api_key="AIzaSyAnmUNogcKe45e916M-koaEEtmI1aWyaAE")
+genai.configure(api_key="YOUR_API_KEY")
 try:
     model = genai.GenerativeModel('gemini-2.0-flash')
     print("Gemini model 'gemini-2.0-flash' initialized successfully.")

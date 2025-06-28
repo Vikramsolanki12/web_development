@@ -14,7 +14,8 @@ if not GEMINI_API_KEY:
     print("WARNING: GOOGLE_API_KEY environment variable not found. Please set it for production.")
     pass 
 
-genai.configure(api_key=GEMINI_API_KEY)
+
+genai.configure(api_key="AIzaSyAnmUNogcKe45e916M-koaEEtmI1aWyaAE")
 try:
     model = genai.GenerativeModel('gemini-2.0-flash')
     print("Gemini model 'gemini-2.0-flash' initialized successfully.")
